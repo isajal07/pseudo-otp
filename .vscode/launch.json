@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "pseudo-otp.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            // "args": "-gen 4"
+            // "args": "-enc 0011 '@cD('",
+            "args": "-dec 0011 01110000010100110111010100011001"
+        }
+    ]
+}
